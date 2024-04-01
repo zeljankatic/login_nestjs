@@ -6,7 +6,7 @@ export class User {
     id:number
 
     @Column()
-    name:number
+    name:string
 
     @Column({unique:true})
     email: string;
